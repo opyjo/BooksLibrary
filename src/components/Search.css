@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.u-screenReader {
+  border: 0 !important;
+  clip: rect(1px 1px 1px 1px) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+}
+
+.header-navbar__searchInput {
+  border: 1px solid #d5d9dc;
+  border-radius: 2px;
+  color: #6c7881;
+  outline: none;
+  padding: 0.5rem 4rem 0.5rem 1rem;
+  height: 1.5rem;
+}
+
+.header-navbar__searchButton {
+  border-radius: 2px;
+  display: inline-block;
+  border: none;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin: 0;
+  text-decoration: none;
+  background: #0271e1;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 2.6rem;
+}
+
+.header-navbar__searchButton:hover,
+.header-navbar__searchButton:focus {
+  background: #20436b;
+}
+
+.header-navbar__searchInput:focus,
+.header-navbar__searchButton:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+select {
+  padding: 1em;
+  width: 130%;
+  border-radius: 0.2em;
+  border: 1px solid #acacac;
+  color: #181820;
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+
+  background: url("https://cdn1.iconfinder.com/data/icons/arrows-vol-1-4/24/dropdown_arrow-512.png");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: right;
+  background-origin: content-box;
+}
+
+.select {
+  margin-left: 30px;
+}
