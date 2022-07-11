@@ -10,9 +10,18 @@ const Book = ({ book }) => {
           alt={book.title}
         />
         <div className="text">
-          <h3 className="title">TITLE:{book.title}</h3>
-          <h4 className="author">AUTHOR:{book.author_name}</h4>
-
+          <p className="title">
+            <span>TITLE:</span>
+            {book.title}
+          </p>
+          <p className="author">
+            <span>AUTHOR:</span>
+            {book.author_name}
+          </p>
+          <p className="first_publish_year">
+            <span>FIRST PUBLISH YEAR:</span>
+            {book.first_publish_year}
+          </p>
           <a
             href={`https://openlibrary.org/books/${book.cover_edition_key}/${book.title}`}
           >
